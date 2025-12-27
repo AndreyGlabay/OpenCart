@@ -1,0 +1,8 @@
+testName,email,password,expected
+Valid login,mymail@server.com,User-123,success
+Invalid login,abcxyz@xyz.com,abcxyx,failure
+Invalid login 1,abcxyz@xyz.com,abcxyx,failure
+Invalid login 2,klmn@opqrst.net,User-123,failure
+Blank email,,User-123,failure
+Blank password,mymail@server.com,,failure
+Blank email and password,,,failure

@@ -1,0 +1,38 @@
+[
+  {
+    "testName": "Valid login",
+    "email": "mymail@server.com",
+    "password": "User-123",
+    "expected": "success"
+  },
+  {
+    "testName": "Invalid login 1",
+    "email": "abcxyz@xyz.com",
+    "password": "abcxyx",
+    "expected": "failure"
+  },
+  {
+    "testName": "Invalid login 2",
+    "email": "klmn@opqrst.net",
+    "password": "User-123",
+    "expected": "failure"
+  },
+  {
+    "testName": "Blank email",
+    "email": "",
+    "password": "User-123",
+    "expected": "failure"
+  },
+  {
+    "testName": "Blank password",
+    "email": "mymail@server.com",
+    "password": "",
+    "expected": "failure"
+  },
+  {
+    "testName": "Blank email and password",
+    "email": "",
+    "password": "",
+    "expected": "failure"
+  }
+]
