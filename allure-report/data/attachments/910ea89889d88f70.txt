@@ -1,0 +1,13 @@
+✅ Registration is completed!
+✅ Logout is completed!
+✅ Login is completed!
+Error selecting product: Error: locator.click: Test timeout of 30000ms exceeded.
+Call log:
+  - waiting for locator('h4>a').first()
+    - locator resolved to <a href="http://localhost/opencart/upload/index.php?route=product/product&product_id=43&search=MacBook">MacBook</a>
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+
